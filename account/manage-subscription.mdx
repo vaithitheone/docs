@@ -1,0 +1,88 @@
+---
+title: "Manage subscription"
+description: "Cancel your subscription or update your Razorpay payment method."
+---
+
+## Overview
+
+Use the Manage Subscription page to cancel your plan or update your payment method via Razorpay.
+
+<CardGroup cols={2}>
+<Card title="Open Manage Subscription" icon="gear" href="https://gellerwash.test/app/manage-subscription">
+Go to the subscription management screen.
+</Card>
+
+<Card title="Billing & invoices" icon="credit-card" href="https://gellerwash.test/app/billing-invoice">
+Review plan details and payment history.
+</Card>
+</CardGroup>
+
+## Update payment method
+
+You are redirected to a secure Razorpay flow to change your card/UPI details.
+
+<Steps>
+<Step title="Start the update flow">
+Click Update Payment Method. You will be redirected to Razorpay.
+</Step>
+
+<Step title="Complete the Razorpay form">
+Provide the new payment details and confirm.
+
+<Check>
+Your future renewals use the updated method. Existing invoices remain unchanged.
+</Check>
+</Step>
+</Steps>
+
+<Note>
+Payment details are handled by Razorpay. GellerWash does not store your full card information.
+</Note>
+
+## Cancel subscription
+
+Use the Cancel Subscription action on this page.
+
+<Warning>
+Cancelling stops future renewals. If you have an active period, access may continue until the end of the current billing cycle depending on your plan configuration.
+</Warning>
+
+<Steps>
+<Step title="Initiate cancellation">
+Click Cancel Subscription.
+</Step>
+
+<Step title="Confirm the action">
+Follow any confirmation prompts. If you need help with pro‑rations or refunds, contact support.
+</Step>
+</Steps>
+
+## Plan changes
+
+### Plan switching is currently unavailable
+
+At this time, switching plans from within the app is not supported.
+
+<Info>
+For plan upgrades or downgrades, contact support and include your workspace name and current plan.
+</Info>
+
+## Troubleshooting
+
+<AccordionGroup>
+<Accordion title="I cannot update my payment method">
+- **Razorpay link expired**: Reopen Manage Subscription and retry.
+- **Popup or redirect blocked**: Allow redirects for `gellerwash.test` and Razorpay domains.
+</Accordion>
+
+<Accordion title="Cancellation didn't reflect immediately">
+- **Billing-cycle timing**: Some changes apply at period end.
+- **Check Billing & Invoice**: Verify status on the Billing & Invoice page.
+</Accordion>
+</AccordionGroup>
+
+<Check>
+You have successfully updated your payment method or scheduled a cancellation.
+</Check>
+
+

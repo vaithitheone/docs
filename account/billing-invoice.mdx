@@ -1,0 +1,105 @@
+---
+title: "Billing & invoices"
+description: "View your subscription details, billing cycle, trial dates, and Razorpay payment history."
+---
+
+## Overview
+
+Use the Billing & Invoice page to review your current subscription, track billing cycles, and access your Razorpay payment history and invoices.
+
+<CardGroup cols={2}>
+<Card title="Go to Billing & Invoice" icon="credit-card" href="https://gellerwash.test/app/billing-invoice">
+Open the page directly in the app.
+</Card>
+
+<Card title="Manage Subscription" icon="gear" href="https://gellerwash.test/app/manage-subscription">
+Update payment method or cancel your subscription.
+</Card>
+</CardGroup>
+
+## Current subscription
+
+The summary section shows key plan details:
+
+- **Plan Name**: Your active plan (for example, Starter)
+- **Status**: Trial or Active
+- **Price**: Amount and currency (for example, ₹999.00)
+- **Billing Cycle**: Monthly or yearly
+- **Subscription Started**: The activation date, if available
+- **Trial Ends**: End date of your free trial, if applicable
+
+<Tip>
+If your status is Trial, your subscription starts automatically when the trial ends and the payment succeeds.
+</Tip>
+
+## Payment history
+
+The table lists all payments and invoices from Razorpay.
+
+- **Columns**: Payment #, Amount, Status, Payment Method, Date
+- **Sorting**: Click the column headers (Payment #, Amount, Date) to sort
+- **Empty state**: If you have no payments yet, you will see “No payments found”
+
+<Steps>
+<Step title="Open your payment details">
+Click a row to view the Razorpay receipt or invoice details in a new tab.
+
+<Check>
+You can view the invoice/receipt for each payment via Razorpay.
+</Check>
+</Step>
+
+<Step title="Filter or sort your payments">
+Use the column headers to reorder results and quickly find a specific charge.
+</Step>
+</Steps>
+
+<Note>
+All invoices and receipts are generated and hosted by Razorpay. Downloads and PDF formatting are handled by Razorpay.
+</Note>
+
+## Common tasks
+
+<Steps>
+<Step title="Update your payment method">
+Go to Manage Subscription and use the Update Payment Method link.
+
+<Card title="Update payment method" icon="link" href="https://gellerwash.test/app/manage-subscription">
+Open the Update Payment Method flow.
+</Card>
+</Step>
+
+<Step title="Cancel your subscription">
+Use the Cancel Subscription action on the Manage Subscription page.
+
+<Warning>
+Cancellation affects future renewals. If you need help with refunds or partial periods, contact support.
+</Warning>
+</Step>
+</Steps>
+
+## Troubleshooting
+
+<AccordionGroup>
+<Accordion title="I don't see any payments in the table">
+- **First payment not made**: The list remains empty until your first successful charge.
+- **Different workspace/account**: Verify you are in the correct account.
+- **Time window**: Check the Date column ordering.
+</Accordion>
+
+<Accordion title="Amounts look incorrect">
+- **Taxes and fees**: Final amounts may include taxes or fees configured in Razorpay.
+- **Currency display**: Ensure your expected currency matches the plan currency.
+</Accordion>
+
+<Accordion title="Invoices fail to open">
+- **Popup blockers**: Allow popups for `gellerwash.test` and Razorpay domains.
+- **Razorpay status**: If Razorpay is unavailable, try again later.
+</Accordion>
+</AccordionGroup>
+
+<Check>
+You can see your plan details and payment history without leaving the app.
+</Check>
+
+

@@ -1,0 +1,75 @@
+---
+title: "Job cards"
+description: "Track service work for vehicles and convert completed jobs into invoices."
+---
+
+## Overview
+
+Job cards capture the work to be done for a customer's vehicle, the selected services, and pricing.
+
+<CardGroup cols={2}>
+<Card title="Open Job Cards" icon="clipboard" href="https://gellerwash.test/app/job-cards">
+View and manage job cards.
+</Card>
+
+<Card title="New Job Card" icon="plus" href="https://gellerwash.test/app/job-cards/create">
+Create a new job card.
+</Card>
+</CardGroup>
+
+## List view
+
+- **Actions**: New Job Card
+- **Search**: Filter by customer, vehicle, model, or services
+- **Columns**: Customer, Vehicle, Model, Services
+- **Empty state**: Shows “No job cards” until you add your first record
+
+## Create a job card
+
+<Steps>
+<Step title="Start a new job">
+Open New Job Card.
+</Step>
+
+<Step title="Add customer and vehicle">
+Choose an existing customer and their vehicle.
+
+<Tip>
+Create the customer and vehicle first if they don't exist.
+</Tip>
+</Step>
+
+<Step title="Select services and review pricing">
+Pick services from your catalog. Review line items, duration, and totals.
+</Step>
+
+<Step title="Save the job card">
+Save to track progress or proceed to billing when ready.
+</Step>
+</Steps>
+
+## Billing from job cards
+
+When a job is complete, generate an invoice from the job card using the available actions.
+
+<Info>
+Invoices appear in Accounting › Invoices after generation.
+</Info>
+
+## Troubleshooting
+
+<AccordionGroup>
+<Accordion title="Services not showing for selection">
+- **Service status**: Ensure services are Active in the Services list.
+</Accordion>
+
+<Accordion title="The vehicle list is empty">
+- **Vehicle link**: Add vehicles for the selected customer first.
+</Accordion>
+</AccordionGroup>
+
+<Check>
+Your job card is saved and ready to convert to an invoice.
+</Check>
+
+
